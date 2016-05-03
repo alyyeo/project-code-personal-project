@@ -52,7 +52,7 @@ img {
 }
 
 .ingredients {
-    width: 25%;
+    /*width: 25%;*/
     height: auto;
     float: left;
     padding-left: 5%;
@@ -61,10 +61,9 @@ img {
 }
 
 .instructions {
-    width: 65%;
+    /*width: 65%;*/
     height: 300px;
     float: right;
-    /*background-color: white;*/
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -75,7 +74,7 @@ img {
 
 .categories div {
     height: 200px;
-    width: 200px;
+    /*width: 200px;*/
     display: inline-block;
     border: 2px dashed rgb(159, 110, 64);
     margin: 0 auto;
@@ -103,6 +102,8 @@ h3 {
     font-size: 18px;
 }
 
-@media (min-width: @screen-sm-min) {
-    
+@media (max-width: 992px) {
+    .categories {
+        width: auto;
+    }
 }
